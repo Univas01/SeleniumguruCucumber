@@ -1,0 +1,146 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Addition of two integer numbers",
+        "description": "",
+        "id": "addition;addition-of-two-integer-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135451644,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have two numbers 20 and 40",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 19
+                },
+                {
+                  "val": "40",
+                  "offset": 26
+                }
+              ],
+              "location": "Addition_steps.i_have_two_numbers_and(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49930,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Add button",
+            "match": {
+              "location": "Addition_steps.i_click_on_Add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 307601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the output should be 60",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60",
+                  "offset": 21
+                }
+              ],
+              "location": "Addition_steps.the_output_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Addition",
+    "description": "",
+    "id": "addition",
+    "keyword": "Feature",
+    "uri": "Addition.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Multiplication of two integer numbers",
+        "description": "",
+        "id": "multiplication;multiplication-of-two-integer-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 234334,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "two integer numbers 20 and 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 20
+                },
+                {
+                  "val": "100",
+                  "offset": 27
+                }
+              ],
+              "location": "Multiplication_steps.two_integer_numbers_and(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65494,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Multiply button",
+            "match": {
+              "location": "Multiplication_steps.i_click_on_Multiply_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182708,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the result should be 2000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2000",
+                  "offset": 21
+                }
+              ],
+              "location": "Multiplication_steps.the_result_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Multiplication",
+    "description": "",
+    "id": "multiplication",
+    "keyword": "Feature",
+    "uri": "Multiplication.feature"
+  }
+]
